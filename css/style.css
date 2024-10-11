@@ -1,0 +1,305 @@
+body {
+    background-color: #ffffff;
+}
+
+.nav-link:link {
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.nav-link:visited {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #ecac58;
+}
+
+.logo {
+  width: 200px;
+}
+
+.bg-custom {
+  background-color: #c49a6c;
+}
+
+/* Footer */
+
+/* Styles for footer section */
+
+.footer {
+  position: sticky; 
+  bottom: 0; 
+  width: 100%; 
+  background-color: #ecac58;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer h5, p {
+    text-align: center; /* Center align the text */
+}
+
+.footer h5 {
+    font-family: "Grandstander", cursive;
+    font-size: 16px; 
+    padding-top: 15px;
+}
+
+.footer p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px; 
+}
+
+.footer span {
+    font-size: 14px; 
+}
+
+.footer .col-lg-4.d-flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+.bi {
+  color: #000;
+  padding: 2px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767.98px) {
+  .footer {
+      position: static;
+  }
+}
+
+/* HOME PAGE */
+
+/* Styles for hero section */
+
+.hero {
+    text-align: center;
+    padding: 50px 0; 
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #000; 
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: "Grandstander", cursive;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 2;
+    color: #000; 
+    font-family: "Roboto", sans-serif; 
+}
+
+/* Styles for secondary images */
+.secondary-images {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.secondary-images img {
+    max-width: 100%;
+    height: 200px;
+    padding: auto;
+    margin-left: 50px; 
+}
+
+.secondary-text {
+    text-align: center;
+    padding: 5px;
+}
+
+.secondary-text h2 {
+    font-family: "Grandstander", cursive; 
+    font-size: 36px; 
+    margin-bottom: 30px;
+}
+
+.secondary-text p {
+    font-family: "Roboto", sans-serif; 
+    font-size: 18px; 
+    line-height: 2;
+    color: #000; 
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767.98px) {
+  .hero {
+    padding: 20px 0; 
+  }
+}
+
+
+/* CONTACT */
+
+/* Styles for contact section */
+
+.contact-text {
+    text-align: center; 
+    padding-bottom: 15px;
+  }
+
+#contact-section {
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #9ca9b0;
+    padding: 15px;
+  }  
+
+#contact-section h2 {
+    font-family: "Grandstander", cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+#contact-section form .form-group {
+    margin-bottom: 20px; 
+  }
+
+.contact-information h2 {
+    font-family: "Grandstander", cursive;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+.contact-information p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.btn {
+    background-color: #fbd3df;
+    color: #000;
+    font-family: "Grandstander", cursive;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* ABOUT */
+
+/* Styles for about section */
+
+#about-section {
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 15px;
+}  
+
+#about-section h1 {
+  font-family: "Grandstander", cursive;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#about-section h2 {
+  font-family: "Grandstander", cursive;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #8b5e3c;
+}
+
+.about-content h3 {
+  margin-bottom: 25px; /* Adjust the value as needed */
+}
+
+.about-paragraph {
+  text-align: left;
+  line-height: 2;
+  margin-bottom: 25px;
+}
+
+#about-image {
+  margin-top: 30px;
+}
+
+#secondary-images img {
+  max-width: 100%;
+  height: 225px;
+}
+
+/* SERVICES */
+
+/* Styles for service section */
+
+#services h2, #pricing h2 {
+  font-family: "Grandstander", cursive;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#services h3, #pricing h3 {
+  font-family: "Grandstander", cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #8b5e3c;
+}
+
+#service-images img {
+  margin-top: 50px;
+}
+
+#services-list {
+  margin-bottom: 50px;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 767.98px) {
+  #about-image {
+      margin-top: 0; 
+  }
+}
+
+@media (max-width: 767.98px) {
+  #about-section {
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+} 
+
+@media (max-width: 991.98px) {
+  #secondary-images img{
+      width: 100%; 
+      height: auto;
+      padding: 10px;
+      margin-right: 0; 
+      margin-left: 0; 
+      margin-bottom: 10px;
+  }
+}
